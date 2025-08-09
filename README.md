@@ -2,7 +2,7 @@
 
 ##  Overview
 This project detects **toxic language** in online comments using two different approaches:
-1. **Naive Bayes** – a traditional machine learning model that works well with TF-IDF text features.
+1. **Naive Bayes** – a traditional machine learning model that works well with TF-IDF(Term Frequency-Inverse Document Frequency) text features.
 2. **BERT** – a deep learning transformer model that understands the context of words.
 
 The aim is to compare the speed, accuracy, and usefulness of both models for content moderation tasks.  
