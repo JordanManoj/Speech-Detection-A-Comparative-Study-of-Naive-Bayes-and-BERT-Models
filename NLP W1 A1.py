@@ -13,7 +13,7 @@ from torch.utils.data import Dataset
 
 torch.manual_seed(42)
 
-#Load and Rename
+#Load 
 train_df = pd.read_csv("train.csv")
 valid_df = pd.read_csv("valid.csv")
 test_df = pd.read_csv("test.csv")
@@ -110,6 +110,7 @@ pred_test_bert = np.argmax(pred_test_bert, axis=1)
 test_output = test_df.copy()
 test_output["out_label_model_Gen"] = pred_test_nb
 test_output["out_label_model_Dis"] = pred_test_bert
-test_output[["out_label_model_Gen", "out_label_model_Dis"]].to_csv("test.csv", index=False)
+test_output[["out_label_model_Gen", "out_label_model_Dis"]].to_csv("sampletest.csv", index=False)
 
 print("\nsampletest.csv generated .")
+
