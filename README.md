@@ -68,4 +68,4 @@ We have three CSV files:
 - Naive Bayes is much faster but less accurate.
 - BERT captures subtle meaning and context, giving higher accuracy.
 
-** The `test.csv` file will be replaced with `sampletest.csv`. **
+ The `test.csv` file will be replaced with `sampletest.csv`. 
