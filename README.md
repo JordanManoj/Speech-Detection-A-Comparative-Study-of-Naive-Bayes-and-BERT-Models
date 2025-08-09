@@ -61,8 +61,8 @@ We have three CSV files:
 ## Results
 | Model        | Accuracy | F1-score   |
 |--------------|----------|------------|
-| Naive Bayes  | 0.8693    | 0.8086    |
-| BERT         | 0.8688    | 0.8078    |
+| Naive Bayes  | 0.8667   | 0.8086     |
+| BERT         | 0.8688   | 0.8078     |
 
 **Key Points:**
 - Naive Bayes is much faster but less accurate.
